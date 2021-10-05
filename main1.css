@@ -1,0 +1,44 @@
+/*Homepage*/
+body{
+	background-image: url("assets/tune.png");
+	background-size: cover;}
+
+/* type */
+.name {
+  font-family: roboto, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 400%;
+  margin-top: 14%;
+  transition: all 2s ease-in-out;
+}
+
+.name:hover {
+  cursor: pointer;
+  font-size: 800%;
+}
+
+.all{
+  font-family: roboto, sans-serif;
+  text-decoration-color:black;
+  -webkit-background-clip: text;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  margin-left: 40%;
+  font-size: 400%;
+  margin-bottom: 84%;
+  -webkit-text-stroke:2.5px #fff;
+}
+
+/* mouse over link */
+
+.all:hover {
+  color: white;
+  cursor: pointer;
+  -webkit-text-stroke: 1.0px black;
+
+}
+
+
+
+/*Homepage*/

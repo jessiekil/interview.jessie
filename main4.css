@@ -1,0 +1,62 @@
+/*Third interview*/
+body{
+	background-color: #E5E5E5;}
+	
+h2{
+	color: white;
+	font-family: roboto, sans-serif;
+	text-decoration: none;	
+	text-align: center;}
+
+ hr {
+  border-top: 2px solid black;
+  width: 75%;
+  }
+
+.title{
+	font-family:rowdies;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 71px;
+	line-height: 138px;
+	text-align: center;
+	color: #3C3E3E;}
+
+.question{
+	font-family: Calistoga;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 34px;
+	line-height: 100px;
+	color: #3C3E3E; 
+	margin-left: 210px;
+	margin-right: 210px;
+	background: linear-gradient(rgba(255,255,255,0) 15%, #FBEC50 65%);
+	display: inline;}
+
+.answer{
+font-family: Yaldevi Colombo SemiBold, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+color: #3C3E3E;
+margin-left: 210px;
+margin-right: 210px;
+
+}
+
+.bw img {
+  display: block;
+  margin-top: -110px;
+  width: 360px;
+  margin-left: 35.5%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  padding: 60px 0 60px 0;
+}
+
+.bw img:hover {
+  filter: none;
+  cursor: url(home.png), auto;
+
+}

@@ -1,0 +1,101 @@
+/*Homepage*/
+
+body{
+  background-color: white;
+    margin: auto;
+  }
+/*added in this to style the hr*/
+  hr {
+  border-top: 3px solid black;
+  }
+
+  .wrapper {
+    max-width: 900px;
+    margin:  0 auto;
+  }
+
+
+h2{
+  color: white;
+  font-family: viaoda libre;
+  text-decoration: none;  
+  text-align: center;}
+
+h3{
+  font-family: viaoda libre;
+  line-height: 57.85px;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  margin-left: 80px;
+}
+
+h4{
+  font-family: viaoda libre;
+  font-size: 50px;
+  letter-spacing: 0.2em;
+  margin-left: 35%;
+}
+
+
+.title1{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 100px;
+/*  margin-left: 200px;
+  margin-right: 200px;*/
+  font-family: vidaloka;
+}
+
+
+/*lexbox for question-answer*/
+.question-answer {
+  display:  flex;
+  justify-content: center;
+  background-color:  transparent;
+}
+
+/*specify width of the items*/
+.item {
+  width:  50%;
+}
+
+.question{
+  font-family: viaoda libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  color: black; 
+  text-align: left;
+  /*padding-left: 13%;*/
+  /*line-height: 99px;*/
+}
+.answer{
+  font-family: viaoda libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  color: black; 
+/*margin-left: 700px;
+  margin-right: 120px;*/
+  padding: 0 0 15% 15%;
+  border-left: 2px solid black;
+  /*padding-left: 4%;*/
+}
+
+.bw img {
+  display: block;
+  margin-top: -110px;
+  width: 360px;
+  margin-left: 28%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  padding: 60px 0 60px 0;
+}
+
+.bw img:hover {
+  filter: none;
+  cursor: url(home.png), auto;
+
+}
